@@ -10,6 +10,7 @@ var closeModal = function () {
 button.addEventListener("click", function () {
   modal.classList.add("show-modal");
   button.innerText = "You've got this!!!";
+  openModal;
 });
 
 modalX.addEventListener("click", function () {
